@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.envrc
+
+# Data files
+*.csv
+*.xlsx
+data/
+
+# Model files
+models/
+
+# Other temporary files
+*.log
+
