@@ -14,19 +14,17 @@ The main objective of this project is to:
 ## 🏗️ Project Structure
 ```
 📁 moosic/
-├── data/               # Raw and processed data (gitignored)
-├── notebooks/          # Jupyter notebooks for analysis and experiments
-├── src/                # Python source code (data prep, clustering, visualization)
-│   ├── data_preparation.py
+├── data/               
+├── src/
+│   ├── load_data.py
+│   ├── clean_data.py
+│   ├── eda.py
 │   ├── clustering.py
-│   └── visualization.py
-├── tests/              # Unit tests
-│   └── test_clustering.py
+│   └── pipeline.py
 ├── .gitignore
 ├── requirements.txt
-├── setup.py
 ├── README.md
-└── main.py             # Entry point of the project
+└── main.py       
 ```
 
 ## ⚙️ Setup Instructions
@@ -52,11 +50,6 @@ The main objective of this project is to:
 You can run the project using:
 ```bash
 python main.py
-```
-
-Or explore and experiment with clustering in the Jupyter notebooks:
-```bash
-jupyter notebook
 ```
 
 ## 🧩 Features
@@ -85,6 +78,8 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## ✨ Author
 **Yazdan**  
-Junior Software Developer & Data Enthusiast  
+Junior Data scientist & Software Developer 
 📍 Based in Germany  
-📧 [Add your email or GitHub profile link here]
+📧 yazdan.mohammadi.dev@gmail.com
+
+https://www.yazdan.tech
